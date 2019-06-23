@@ -11,5 +11,8 @@ public class Solution {
 
     public static int sumDigitsInNumber(int number) {
         //напишите тут ваш код
+        return (number%10 +(int) (number/10)%10)+(int)(number/100)%10;
     }
 }
+
+
